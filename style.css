@@ -1,0 +1,23 @@
+body {
+    background: url("https://media.istockphoto.com/vectors/color-blend-rainbow-trendy-low-poly-bg-design-vector-id1159096363?k=20&m=1159096363&s=170667a&w=0&h=GA5KRYiF0JTCJ4Dn_WQkwVQy8NhRpTwIuZNb-jpT1nE=");
+    background-size: 100%;
+    background-position: center;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+}
+
+
+/* Glass Effect */
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
